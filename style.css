@@ -1,9 +1,20 @@
+@font-face {
+	font-family: "Code Pro Black";
+	src: url(fonts/code_pro_bold.woff);
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Next Art";
+	src: url(fonts/next_art_bold.woff);
+	font-style: normal;
+	font-weight: 700;
+}
 :root {
 	--title-c: rgb(212, 239, 0);
 	--text-c: rgb(251, 251, 249);
-	--title-f-f:  "Rubik", sans-serif;
-	--text-f-f: "Merriweather";
-	font-size: 1em;
+	--title-f-f:  "Code Pro Black", sans-serif;
+	--text-f-f: "Next Art";
 }
 .header {
 	height: 20vh;
@@ -14,7 +25,7 @@
 	align-items: center;
 }
 .main__title {
-	font-family: var(--title-f-f);
+	font-family: var(--text-f-f);
 	text-align: center;
 	color: var(--title-c);
 	font-size: 5rem;
@@ -120,6 +131,9 @@
 	align-items: center;
 	padding: 0 em;
 }
+.social {
+	margin-right: 2em;
+}
 .fab {
 	color: var(--title-c);
 	font-size: 4em;
@@ -133,7 +147,7 @@
 }
 .footer__text {
 	color: var(--text-c);
-	width: 80%;
+	width: 100%;
 	margin-left: auto;
 	font-size: 1.2rem;
 }
