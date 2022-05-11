@@ -133,7 +133,7 @@
 }
 .footer__text {
 	color: var(--text-c);
-	width: 50%;
+	width: 80%;
 	margin-left: auto;
 	font-size: 1.2rem;
 }
